@@ -7,33 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D3D1C56DFFE8C67A37DC89F /* Pods_ECloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83773BE8DE437646ABA9FFF /* Pods_ECloud.framework */; };
 		F130DD8E2008A11000E9D8B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F130DD8D2008A11000E9D8B7 /* AppDelegate.swift */; };
 		F130DD902008A11000E9D8B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F130DD8F2008A11000E9D8B7 /* ViewController.swift */; };
 		F130DD932008A11000E9D8B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F130DD912008A11000E9D8B7 /* Main.storyboard */; };
 		F130DD952008A11000E9D8B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F130DD942008A11000E9D8B7 /* Assets.xcassets */; };
 		F130DD982008A11000E9D8B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F130DD962008A11000E9D8B7 /* LaunchScreen.storyboard */; };
-		F130DDA32008A11000E9D8B7 /* ECloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F130DDA22008A11000E9D8B7 /* ECloudTests.swift */; };
-		F130DDAE2008A11000E9D8B7 /* ECloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F130DDAD2008A11000E9D8B7 /* ECloudUITests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F130DD9F2008A11000E9D8B7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F130DD822008A11000E9D8B7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F130DD892008A11000E9D8B7;
-			remoteInfo = ECloud;
-		};
-		F130DDAA2008A11000E9D8B7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F130DD822008A11000E9D8B7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F130DD892008A11000E9D8B7;
-			remoteInfo = ECloud;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		1937AEBE3CF20529BCEF4C29 /* Pods-ECloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-ECloud/Pods-ECloud.release.xcconfig"; sourceTree = "<group>"; };
+		6F4EDC4242A77254569261BE /* Pods-ECloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ECloud/Pods-ECloud.debug.xcconfig"; sourceTree = "<group>"; };
 		F130DD8A2008A11000E9D8B7 /* ECloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F130DD8D2008A11000E9D8B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F130DD8F2008A11000E9D8B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,12 +25,7 @@
 		F130DD942008A11000E9D8B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F130DD972008A11000E9D8B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F130DD992008A11000E9D8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F130DD9E2008A11000E9D8B7 /* ECloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F130DDA22008A11000E9D8B7 /* ECloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECloudTests.swift; sourceTree = "<group>"; };
-		F130DDA42008A11000E9D8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F130DDA92008A11000E9D8B7 /* ECloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F130DDAD2008A11000E9D8B7 /* ECloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECloudUITests.swift; sourceTree = "<group>"; };
-		F130DDAF2008A11000E9D8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F83773BE8DE437646ABA9FFF /* Pods_ECloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,33 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F130DD9B2008A11000E9D8B7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F130DDA62008A11000E9D8B7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				6D3D1C56DFFE8C67A37DC89F /* Pods_ECloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3C382CD7A9F09C62599E517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F83773BE8DE437646ABA9FFF /* Pods_ECloud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E80752F85EE8CB468EDBADE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F4EDC4242A77254569261BE /* Pods-ECloud.debug.xcconfig */,
+				1937AEBE3CF20529BCEF4C29 /* Pods-ECloud.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F130DD812008A11000E9D8B7 = {
 			isa = PBXGroup;
 			children = (
 				F130DD8C2008A11000E9D8B7 /* ECloud */,
-				F130DDA12008A11000E9D8B7 /* ECloudTests */,
-				F130DDAC2008A11000E9D8B7 /* ECloudUITests */,
 				F130DD8B2008A11000E9D8B7 /* Products */,
+				E80752F85EE8CB468EDBADE3 /* Pods */,
+				A3C382CD7A9F09C62599E517 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				F130DD8A2008A11000E9D8B7 /* ECloud.app */,
-				F130DD9E2008A11000E9D8B7 /* ECloudTests.xctest */,
-				F130DDA92008A11000E9D8B7 /* ECloudUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,24 +88,6 @@
 			path = ECloud;
 			sourceTree = "<group>";
 		};
-		F130DDA12008A11000E9D8B7 /* ECloudTests */ = {
-			isa = PBXGroup;
-			children = (
-				F130DDA22008A11000E9D8B7 /* ECloudTests.swift */,
-				F130DDA42008A11000E9D8B7 /* Info.plist */,
-			);
-			path = ECloudTests;
-			sourceTree = "<group>";
-		};
-		F130DDAC2008A11000E9D8B7 /* ECloudUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F130DDAD2008A11000E9D8B7 /* ECloudUITests.swift */,
-				F130DDAF2008A11000E9D8B7 /* Info.plist */,
-			);
-			path = ECloudUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F130DDB22008A11000E9D8B7 /* Build configuration list for PBXNativeTarget "ECloud" */;
 			buildPhases = (
+				77B83FFE177F239AF4564B50 /* [CP] Check Pods Manifest.lock */,
 				F130DD862008A11000E9D8B7 /* Sources */,
 				F130DD872008A11000E9D8B7 /* Frameworks */,
 				F130DD882008A11000E9D8B7 /* Resources */,
+				2513456582C425DC92A3FF89 /* [CP] Embed Pods Frameworks */,
+				55E15992620885A701DBD483 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,42 +110,6 @@
 			productName = ECloud;
 			productReference = F130DD8A2008A11000E9D8B7 /* ECloud.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F130DD9D2008A11000E9D8B7 /* ECloudTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F130DDB52008A11000E9D8B7 /* Build configuration list for PBXNativeTarget "ECloudTests" */;
-			buildPhases = (
-				F130DD9A2008A11000E9D8B7 /* Sources */,
-				F130DD9B2008A11000E9D8B7 /* Frameworks */,
-				F130DD9C2008A11000E9D8B7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F130DDA02008A11000E9D8B7 /* PBXTargetDependency */,
-			);
-			name = ECloudTests;
-			productName = ECloudTests;
-			productReference = F130DD9E2008A11000E9D8B7 /* ECloudTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F130DDA82008A11000E9D8B7 /* ECloudUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F130DDB82008A11000E9D8B7 /* Build configuration list for PBXNativeTarget "ECloudUITests" */;
-			buildPhases = (
-				F130DDA52008A11000E9D8B7 /* Sources */,
-				F130DDA62008A11000E9D8B7 /* Frameworks */,
-				F130DDA72008A11000E9D8B7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F130DDAB2008A11000E9D8B7 /* PBXTargetDependency */,
-			);
-			name = ECloudUITests;
-			productName = ECloudUITests;
-			productReference = F130DDA92008A11000E9D8B7 /* ECloudUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -194,16 +124,6 @@
 					F130DD892008A11000E9D8B7 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-					};
-					F130DD9D2008A11000E9D8B7 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = F130DD892008A11000E9D8B7;
-					};
-					F130DDA82008A11000E9D8B7 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = F130DD892008A11000E9D8B7;
 					};
 				};
 			};
@@ -221,8 +141,6 @@
 			projectRoot = "";
 			targets = (
 				F130DD892008A11000E9D8B7 /* ECloud */,
-				F130DD9D2008A11000E9D8B7 /* ECloudTests */,
-				F130DDA82008A11000E9D8B7 /* ECloudUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,21 +156,85 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F130DD9C2008A11000E9D8B7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F130DDA72008A11000E9D8B7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2513456582C425DC92A3FF89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ECloud/Pods-ECloud-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/PermissionScope/PermissionScope.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PermissionScope.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ECloud/Pods-ECloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55E15992620885A701DBD483 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ECloud/Pods-ECloud-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77B83FFE177F239AF4564B50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ECloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F130DD862008A11000E9D8B7 /* Sources */ = {
@@ -264,36 +246,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F130DD9A2008A11000E9D8B7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F130DDA32008A11000E9D8B7 /* ECloudTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F130DDA52008A11000E9D8B7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F130DDAE2008A11000E9D8B7 /* ECloudUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F130DDA02008A11000E9D8B7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F130DD892008A11000E9D8B7 /* ECloud */;
-			targetProxy = F130DD9F2008A11000E9D8B7 /* PBXContainerItemProxy */;
-		};
-		F130DDAB2008A11000E9D8B7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F130DD892008A11000E9D8B7 /* ECloud */;
-			targetProxy = F130DDAA2008A11000E9D8B7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F130DD912008A11000E9D8B7 /* Main.storyboard */ = {
@@ -363,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -424,10 +377,11 @@
 		};
 		F130DDB32008A11000E9D8B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F4EDC4242A77254569261BE /* Pods-ECloud.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2XD94V8982;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ECloud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yonyou.cloud.ec.ECloud;
@@ -439,82 +393,17 @@
 		};
 		F130DDB42008A11000E9D8B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1937AEBE3CF20529BCEF4C29 /* Pods-ECloud.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2XD94V8982;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ECloud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yonyou.cloud.ec.ECloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F130DDB62008A11000E9D8B7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2XD94V8982;
-				INFOPLIST_FILE = ECloudTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yonyou.cloud.ec.ECloudTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECloud.app/ECloud";
-			};
-			name = Debug;
-		};
-		F130DDB72008A11000E9D8B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2XD94V8982;
-				INFOPLIST_FILE = ECloudTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yonyou.cloud.ec.ECloudTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECloud.app/ECloud";
-			};
-			name = Release;
-		};
-		F130DDB92008A11000E9D8B7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2XD94V8982;
-				INFOPLIST_FILE = ECloudUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yonyou.cloud.ec.ECloudUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ECloud;
-			};
-			name = Debug;
-		};
-		F130DDBA2008A11000E9D8B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2XD94V8982;
-				INFOPLIST_FILE = ECloudUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yonyou.cloud.ec.ECloudUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ECloud;
 			};
 			name = Release;
 		};
@@ -535,24 +424,6 @@
 			buildConfigurations = (
 				F130DDB32008A11000E9D8B7 /* Debug */,
 				F130DDB42008A11000E9D8B7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F130DDB52008A11000E9D8B7 /* Build configuration list for PBXNativeTarget "ECloudTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F130DDB62008A11000E9D8B7 /* Debug */,
-				F130DDB72008A11000E9D8B7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F130DDB82008A11000E9D8B7 /* Build configuration list for PBXNativeTarget "ECloudUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F130DDB92008A11000E9D8B7 /* Debug */,
-				F130DDBA2008A11000E9D8B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

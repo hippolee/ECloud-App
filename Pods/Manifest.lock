@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.7.0)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Hero (1.1.0)
+  - Kingfisher (4.6.3)
+  - Moya (11.0.1):
+    - Moya/Core (= 11.0.1)
+  - Moya/Core (11.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - PermissionScope (1.1.1)
+  - RAMAnimatedTabBarController (3.0.4)
+  - Result (3.2.4)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SnapKit (4.0.0)
+  - SQLite.swift (0.11.4):
+    - SQLite.swift/standard (= 0.11.4)
+  - SQLite.swift/standard (0.11.4)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - ChameleonFramework/Swift
+  - Hero
+  - Kingfisher (~> 4.0)
+  - Moya (~> 11.0)
+  - PermissionScope
+  - RAMAnimatedTabBarController
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - SnapKit (~> 4.0.0)
+  - SQLite.swift (~> 0.11.4)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Hero: ce59e81c79390613d97b43da7179e2c5e1017e04
+  Kingfisher: 98e6d5b5e807645743e8ed5ececd25d688d38452
+  Moya: 3d594ada51a21cc02b18739ab578a1984f900c8a
+  PermissionScope: a30c16e015779ba27c97c124e7539e27b5829de2
+  RAMAnimatedTabBarController: f4df798eb3f374b80448908d3a18586421efb8f6
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 3ccd417e4c479edefa7ad13acc9b426662101919
+
+COCOAPODS: 1.4.0
