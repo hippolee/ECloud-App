@@ -3,6 +3,9 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
+  - CocoaLumberjack/Default (3.4.1)
+  - CocoaLumberjack/Swift (3.4.1):
+    - CocoaLumberjack/Default
   - Hero (1.1.0)
   - Kingfisher (4.6.3)
   - Moya (11.0.1):
@@ -22,6 +25,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 4.0)
   - ChameleonFramework/Swift
+  - CocoaLumberjack/Swift
   - Hero
   - Kingfisher (~> 4.0)
   - Moya (~> 11.0)
@@ -34,6 +38,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  CocoaLumberjack: 2e258a064cacc8eb9a2aca318e24d02a0a7fd56d
   Hero: ce59e81c79390613d97b43da7179e2c5e1017e04
   Kingfisher: 98e6d5b5e807645743e8ed5ececd25d688d38452
   Moya: 3d594ada51a21cc02b18739ab578a1984f900c8a
@@ -44,6 +49,6 @@ SPEC CHECKSUMS:
   SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: ea251ebdb06e9db863301e63ba7fcab6e353a3d9
+PODFILE CHECKSUM: d834ca170fd6ef79db02dddbabc3a6ab10309800
 
 COCOAPODS: 1.4.0

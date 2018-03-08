@@ -14,5 +14,6 @@ target 'ECloud' do
   pod 'SnapKit', '~> 4.0.0'
   pod 'SwiftyJSON'
   pod 'PermissionScope'
+  pod 'CocoaLumberjack/Swift'
 
 end
