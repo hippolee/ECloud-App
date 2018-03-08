@@ -13,9 +13,6 @@ PODS:
   - PermissionScope (1.1.1)
   - RAMAnimatedTabBarController (3.0.4)
   - Result (3.2.4)
-  - RxCocoa (4.1.2):
-    - RxSwift (~> 4.0)
-  - RxSwift (4.1.2)
   - SnapKit (4.0.0)
   - SQLite.swift (0.11.4):
     - SQLite.swift/standard (= 0.11.4)
@@ -30,8 +27,6 @@ DEPENDENCIES:
   - Moya (~> 11.0)
   - PermissionScope
   - RAMAnimatedTabBarController
-  - RxCocoa (~> 4.0)
-  - RxSwift (~> 4.0)
   - SnapKit (~> 4.0.0)
   - SQLite.swift (~> 0.11.4)
   - SwiftyJSON
@@ -45,12 +40,10 @@ SPEC CHECKSUMS:
   PermissionScope: a30c16e015779ba27c97c124e7539e27b5829de2
   RAMAnimatedTabBarController: f4df798eb3f374b80448908d3a18586421efb8f6
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
-  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
-  RxSwift: e49536837d9901277638493ea537394d4b55f570
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 3ccd417e4c479edefa7ad13acc9b426662101919
+PODFILE CHECKSUM: ea251ebdb06e9db863301e63ba7fcab6e353a3d9
 
 COCOAPODS: 1.4.0
